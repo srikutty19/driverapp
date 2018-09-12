@@ -19,7 +19,7 @@
 		
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     
-	<gap:plugin name="phonegap-plugin-push" source="npm" spec="1.10.0" >
+	<gap:plugin name="phonegap-plugin-push" source="npm" spec="1.8.4" >
       <param name="SENDER_ID" value="" />
     </gap:plugin>
 	
