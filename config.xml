@@ -20,7 +20,7 @@
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     
 	<gap:plugin name="phonegap-plugin-push" source="npm" spec="1.10.5" >
-      <param name="SENDER_ID" value="" />
+      <param name="SENDER_ID" value="1034344725177" />
     </gap:plugin>
 	
     <gap:plugin name="cordova-plugin-device" source="npm" />		
@@ -34,7 +34,7 @@
 	<gap:plugin name="cordova-plugin-media" source="npm" spec="3.0.0" />	
 		   
     <gap:plugin name="cordova-plugin-googlemaps"  source="npm" spec="1.3.9" >
-       <param name="API_KEY_FOR_ANDROID" value="" />
+       <param name="API_KEY_FOR_ANDROID" value="AIzaSyCzCzQ33aJmJ8xufyBl9ALYAk5Ht5aTs3Y" />
        <param name="API_KEY_FOR_IOS" value="" />
     </gap:plugin>
         
