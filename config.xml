@@ -36,7 +36,7 @@
     <gap:plugin name="cordova-plugin-googlemaps"  source="npm">
        <param name="API_KEY_FOR_ANDROID" value="AIzaSyDirkKZQFUNZGt4lBnhriV2651zMa6dAjc" />
        <param name="API_KEY_FOR_IOS" value="" />
-	<variable name="PLAY_SERVICES_VERSION" value="11.8.0" />  
+	
     </gap:plugin>
         <preference name="phonegap-version" value="cli-7.1.0" />
     <plugin name="cordova-plugin-insomnia" version="4.1.0" source="npm" />    
@@ -44,8 +44,8 @@
     <gap:plugin name="cordova-plugin-vibration" source="npm" spec="2.1.4" />	
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.0" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
-    <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="26" />
+
+
     <plugin name="cordova-plugin-mauron85-background-geolocation" source="npm" >
         <variable name="ALWAYS_USAGE_DESCRIPTION" value="This app requires background tracking enabled" />
     </plugin>
@@ -58,6 +58,8 @@
     <access origin="tel:*" launch-external="yes" />
     
     <gap:config-file platform="android" parent="/manifest">
+	    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="26" />
         <supports-screens android:xlargeScreens="true" android:largeScreens="true" android:smallScreens="true" />
         <application android:theme="@android:style/Theme.NoTitleBar" >            
         </application>
