@@ -44,7 +44,8 @@
     <gap:plugin name="cordova-plugin-vibration" source="npm" spec="2.1.4" />	
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.0" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
-    
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="26" />
     <plugin name="cordova-plugin-mauron85-background-geolocation" source="npm" >
         <variable name="ALWAYS_USAGE_DESCRIPTION" value="This app requires background tracking enabled" />
     </plugin>
