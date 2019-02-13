@@ -45,7 +45,8 @@
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.0" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
 
-
+<preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="26" />
     <plugin name="cordova-plugin-mauron85-background-geolocation" source="npm" >
         <variable name="ALWAYS_USAGE_DESCRIPTION" value="This app requires background tracking enabled" />
     </plugin>
@@ -58,8 +59,7 @@
     <access origin="tel:*" launch-external="yes" />
     
     <gap:config-file platform="android" parent="/manifest">
-	    <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="26" />
+	    
         <supports-screens android:xlargeScreens="true" android:largeScreens="true" android:smallScreens="true" />
         <application android:theme="@android:style/Theme.NoTitleBar" >            
         </application>
