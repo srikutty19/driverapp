@@ -20,7 +20,7 @@
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     
 	<gap:plugin name="phonegap-plugin-push" source="npm">
-      <param name="SENDER_ID" value="1034344725177" />
+      <param name="SENDER_ID" value="" />
     </gap:plugin>
 	
     <gap:plugin name="cordova-plugin-device" source="npm" />		
@@ -40,9 +40,9 @@
     </gap:plugin>
         <preference name="phonegap-version" value="cli-8.0.0" />
     <plugin name="cordova-plugin-insomnia" version="4.1.0" source="npm" />    
-    <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0" />	 
-    <gap:plugin name="cordova-plugin-vibration" source="npm" spec="2.1.4" />	
-    <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.0" />
+    <gap:plugin name="cordova-plugin-buildinfo" source="npm" />	 
+    <gap:plugin name="cordova-plugin-vibration" source="npm" />	
+    <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
 
 <preference name="android-minSdkVersion" value="19" />
