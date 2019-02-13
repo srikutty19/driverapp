@@ -36,6 +36,7 @@
     <gap:plugin name="cordova-plugin-googlemaps"  source="npm" >
        <param name="API_KEY_FOR_ANDROID" value="AIzaSyDirkKZQFUNZGt4lBnhriV2651zMa6dAjc" />
        <param name="API_KEY_FOR_IOS" value="" />
+	<variable name="PLAY_SERVICES_VERSION" value="11.8.0" />  
     </gap:plugin>
         
     <plugin name="cordova-plugin-insomnia" version="4.1.0" source="npm" />    
