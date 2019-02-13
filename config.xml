@@ -33,7 +33,7 @@
 	<gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.6.0" />	
 	<gap:plugin name="cordova-plugin-media" source="npm" spec="3.0.0" />	
 		   
-    <gap:plugin name="cordova-plugin-googlemaps"  source="npm" spec="^2.2.3" >
+    <gap:plugin name="cordova-plugin-googlemaps"  source="npm">
        <param name="API_KEY_FOR_ANDROID" value="AIzaSyDirkKZQFUNZGt4lBnhriV2651zMa6dAjc" />
        <param name="API_KEY_FOR_IOS" value="" />
 	<variable name="PLAY_SERVICES_VERSION" value="11.8.0" />  
