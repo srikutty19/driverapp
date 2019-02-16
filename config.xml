@@ -24,7 +24,7 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
    
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" spec=/>
+	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     
 	<gap:plugin name="phonegap-plugin-push" source="npm">
       <param name="SENDER_ID" value="" />
